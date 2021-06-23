@@ -1,0 +1,49 @@
+// Matrix
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num1[5], num2[5], sum[5], len = 0;
+
+    cout << "\n\t Enter value of first array: ";
+
+    for(len = 0; len <= 5; len ++)
+    {
+        cin >> num1[len];
+    }
+
+    cout << "\n\t Enter value for second array: ";
+
+    for(len = 0; len <= 5; len ++)
+    {
+        cin >> num2[len];
+    }
+    
+    for(len = 0; len <=5; len ++)
+    {
+        sum[len] = num1[len] + num2[len];
+    }
+
+    cout << "\n\t Addition of matrix ";
+
+    for(len = 0; len <=5; len ++)
+    {
+        cout << num1[len] << " ";
+    }
+    cout << " , ";
+
+    for(len = 0; len <=5; len ++)
+    {
+        cout << num2[len] << " ";
+    }
+
+    cout << " , ";
+    for(len = 0; len <=5; len ++)
+    {
+        cout << sum[len] << " ";
+    }
+    
+    return 0;
+}
