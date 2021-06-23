@@ -32,18 +32,18 @@ int main()
     {
         cout << num1[len] << " ";
     }
-    cout << " , ";
+    cout << " + ";
 
     for(len = 0; len <=5; len ++)
     {
         cout << num2[len] << " ";
     }
 
-    cout << " , ";
+    cout << " = ";
     for(len = 0; len <=5; len ++)
     {
         cout << sum[len] << " ";
     }
-    
+
     return 0;
 }
